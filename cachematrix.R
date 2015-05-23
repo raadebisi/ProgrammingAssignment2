@@ -26,8 +26,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-# This function checks if the stored inverse value is the same as  function getinv().
-# If that is true it returns the stored inverse value as the answer. 
+# The function cacheSolve checks if the inverse value has already been calculated by 
+# using !is.null function. If that is true it returns the stored value in the 
+# function getinv() as the inverse value. 
 # Otherwise, it will solve for the inverse and set the answer as the new inverse value.
 
 cacheSolve <- function(x, ...) {
